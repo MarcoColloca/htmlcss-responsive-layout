@@ -50,6 +50,24 @@ img{
 
 
 
+/* STYLE */
+
+.button-white{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* HEADER */
 
@@ -97,6 +115,7 @@ img{
 
     .nav__bar--list__links{
         display: flex;
+        align-items: baseline;
     }
 
     .nav__bar--list__links li{
