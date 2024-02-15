@@ -72,6 +72,24 @@ img{
     border-radius: 24px;
 }
 
+.button-purple-round{
+    background-color:#9593e6 ;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+h2{
+    font-size: 2.5rem;
+}
+
+
+
+
 
 /* UTILITY */
 
@@ -99,7 +117,7 @@ img{
 
 .nav__bar{
     padding: 24px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .nav__bar--list__links{
@@ -197,7 +215,8 @@ img{
     text-align: center;
 }
 
-.hero__cards h2, i{
+.hero__cards h3, 
+.hero__cards i{
     color:#0084FD 
 }
 
@@ -243,7 +262,6 @@ img{
 
 
 
-
 /* Hero  Section Responsive Desktop */
 
 @media (min-width:992px){
@@ -253,8 +271,114 @@ img{
         align-items: flex-end;
     }
 
+}
+
+
+
+
+
+
+
+
+/*\ Strategy Section /*/
+
+
+.strategy .container-sm .row [class^=col]{
+    width: 100%;
+}
+
+.strategy{
+    background-color: #9593e6;
+    padding: 50px 0;
+}
+
+.strategy__title > *{
+    margin-bottom: 60px;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.strategy__title__img{
+    padding: 40px 0;
+    margin-bottom: 100px;
+}
+
+.strategy__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    text-align: center;
+    gap: 30px;
+    border-radius: 11%;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Strategy  Section Responsive Tablet */
+@media (min-width:576px) {
+   
+   .strategy h2{
+    font-size: 4rem;
+   }
+
+
+   .strategy__title__img{
+    width: 100%;
+}
 
 }
+
+
+
+
+/* Strategy  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+    .strategy .container-sm .row{
+        align-items: flex-end;
+    }
+   
+    .strategy .container-sm .row .col-dt-6{
+    width: calc(100%/12*6);
+    padding: 0 20px;
+   }
+
+   .strategy h2{
+    font-size: 2.5rem;
+   }
+
+    .strategy__title__img{
+        
+    }
+
+   .strategy__card__img{
+    max-width: 300px;
+   }
+
+   .strategy__title >*:last-child{
+    margin-bottom: 0;
+   }
+}
+
+
+
+
+
+
+
 
 
 
