@@ -44,7 +44,13 @@ img{
     flex-wrap: wrap;
 }
 
+.col-4{
+    width: calc(100%/12*4);
+}
 
+.col-8{
+    width: calc(100%/12*8);
+}
 
 
 
@@ -122,3 +128,16 @@ img{
         margin: 0 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+/* Hero Section */
