@@ -186,6 +186,9 @@ img{
 
 .hero__card--lg__body__img{
     max-width: 250px;
+    display: block;
+    margin-bottom: -27px;
+    padding: 0;
 }
 
 
@@ -221,6 +224,7 @@ img{
         height: 100%;
     }
 
+
 }
 
 
@@ -231,7 +235,11 @@ img{
 
 @media (min-width:992px){
 
-    
+    .hero__card--lg{
+        display: flex;
+        align-items: flex-end;
+    }
+
 
 }
 
