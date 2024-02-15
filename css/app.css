@@ -18,3 +18,18 @@ a{
 img{
     max-width: 100%;
 }
+
+
+
+/* LAYOUT */
+
+.container{
+    max-width: 1162px;
+    padding:  0 12px;
+}
+
+
+.container-sm{
+    max-width: 922px;
+    padding: 0 24px;
+}
