@@ -67,6 +67,14 @@ img{
 
 
 
+/* UTILITY */
+
+
+.d-block{
+    display: block;
+}
+
+
 
 
 
@@ -141,3 +149,75 @@ img{
 /* MAIN */
 
 /* Hero Section */
+
+.hero{
+    margin: 30px auto;
+}
+
+.hero .container .row [class^=col]{
+    width: 100%;
+    padding: 12px;
+}
+
+[class^=hero__card--]{
+    background-color: #B5DDFF;
+    border-radius: 18px;
+    padding: 12px;
+}
+
+[class^=hero__card--] > *{
+    margin: 15px 0;
+}
+
+
+.hero__card--lg__body{
+    display: contents;
+}
+
+
+
+
+/* Hero  Section Responsive Tablet */
+@media (min-width:576px) {
+    .hero .container .row .col-lg{
+        width: calc(100%/3*2);
+    }
+
+    .hero .container .row .col-sm{
+        width: calc(100%/3);
+    }
+
+    
+}
+
+
+
+
+
+/* Hero  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+    .hero__card--lg{
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug main [class^=col]{
+    border: 1px solid red;
+}
