@@ -25,12 +25,16 @@ img{
 
 .container{
     max-width: 1162px;
-    padding:  0 12px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 24px;
 }
 
 
 .container-sm{
     max-width: 922px;
+    width: 100%;
+    margin: 0 auto;
     padding: 0 24px;
 }
 
@@ -38,4 +42,64 @@ img{
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/* HEADER */
+
+/* Nav  Section */
+
+.nav{
+    background-color: #0084FD;
+}
+
+.nav__bar{
+    padding: 24px;
+    color: white;
+}
+
+.nav__bar--list__links{
+    display: none;
+}
+
+.nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__bar--list__icon{
+    font-size: 2rem;
+}
+
+
+/* Nav  Section Responsive Tablet */
+@media (min-width:576px) {
+
+}
+
+
+
+
+
+/* Nav  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+    .nav__bar--list__icon{
+        display: none;
+    }
+
+    .nav__bar--list__links{
+        display: flex;
+    }
+
+    .nav__bar--list__links li{
+        margin: 0 10px;
+    }
 }
