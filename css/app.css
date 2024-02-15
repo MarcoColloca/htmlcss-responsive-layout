@@ -184,11 +184,13 @@ img{
 }
 
 
-.hero__card--lg__body__img{
+.hero__card--lg__img{
     max-width: 250px;
     display: block;
+    margin: 0 auto;
     margin-bottom: -27px;
     padding: 0;
+    
 }
 
 
@@ -224,6 +226,14 @@ img{
         height: 100%;
     }
 
+    .hero__card--lg__img{
+        max-width: 250px;
+        display: block;
+        margin: 0;
+        margin-bottom: -27px;
+        padding: 0;
+        
+    }
 
 }
 
