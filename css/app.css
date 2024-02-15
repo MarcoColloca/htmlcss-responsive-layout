@@ -65,6 +65,12 @@ img{
     border-radius: 24px;
 }
 
+.button-blue{
+    padding: 10px 80px;
+    background-color: #0084FD;
+    color: white;
+    border-radius: 24px;
+}
 
 
 /* UTILITY */
@@ -171,9 +177,33 @@ img{
 
 
 .hero__card--lg__body{
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
+
+.hero__card--lg__body__img{
+    max-width: 250px;
+}
+
+
+.hero__card--sm{
+    text-align: center;
+}
+
+.hero__cards h2, i{
+    color:#0084FD 
+}
+
+.hero__cards p{
+    line-height: 2rem;
+}
+
+.hero__cards i{
+    font-size: 5rem;
+}
 
 
 
@@ -187,7 +217,10 @@ img{
         width: calc(100%/3);
     }
 
-    
+    .hero__card--sm{
+        height: 100%;
+    }
+
 }
 
 
@@ -198,9 +231,7 @@ img{
 
 @media (min-width:992px){
 
-    .hero__card--lg{
-        display: flex;
-    }
+    
 
 }
 
