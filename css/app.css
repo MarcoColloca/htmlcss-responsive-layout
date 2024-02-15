@@ -249,6 +249,6 @@ img{
 
 /* DEBUG */
 
-.debug main [class^=col]{
+/* .debug main [class^=col]{
     border: 1px solid red;
-}
+} */
