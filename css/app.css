@@ -52,7 +52,9 @@ img{
     width: calc(100%/12*8);
 }
 
-
+.col-12{
+    width: calc(100%/12*12);
+}
 
 
 
@@ -98,7 +100,9 @@ h2{
     display: block;
 }
 
-
+.txt-bold{
+    font-weight: bold;
+}
 
 
 
