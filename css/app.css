@@ -104,7 +104,9 @@ h2{
     font-weight: bold;
 }
 
-
+.mg-bot-15{
+    margin-bottom: 15px;
+}
 
 
 
@@ -381,6 +383,123 @@ h2{
 
 
 
+/*\ Testimonials Section /*/
+
+
+
+.testimonials{
+    margin: 70px 0;
+    text-align: center;
+}
+
+.testimonials__text h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.testimonials__text h3{
+    font-size: 2rem;
+    color: #9593e6;
+}
+
+.testimonials__text > *{
+    margin-bottom: 24px;
+}
+
+
+.testimonials .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__card{
+    padding: 24px;
+    background-color: #9593e6;
+    margin: 24px 0;
+    border-radius: 60px;
+    line-height: 2rem;
+    color: white;
+    font-size: 18px;
+}
+
+.testimonials__card > *{
+    margin-bottom: 10px;
+}
+
+
+.testimonials__card__img{
+    border-radius: 50%;
+    width: 75%;
+    aspect-ratio: 1/1;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.nat-reynolds{
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.celia-almeda{
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.bob-roberts{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+
+
+
+
+/* Testimonials  Section Responsive Tablet */
+@media (min-width:576px){
+    
+    html{
+        font-size: 22px;
+    }
+
+    .testimonials__card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 50px;
+        gap: 20px;
+        line-height: 1.5rem;
+    } 
+
+    .testimonials__card__img{
+        width: 25%;
+        margin: 0;
+    }
+
+    .testimonials__card__description{
+        width: 60%;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+
+
+
+}
+
+
+
+/* Testimonials  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+    html{
+        font-size: 24px;
+    }
+
+}
+
+
+
 
 
 
@@ -408,3 +527,7 @@ h2{
 /* .debug main [class^=col]{
     border: 1px solid red;
 } */
+
+
+
+
