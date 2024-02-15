@@ -66,7 +66,7 @@ img{
 }
 
 .button-blue{
-    padding: 10px 80px;
+    padding: 10px 60px;
     background-color: #0084FD;
     color: white;
     border-radius: 24px;
@@ -152,9 +152,9 @@ img{
 
 
 
-/* MAIN */
+/*\\ MAIN //*/
 
-/* Hero Section */
+/*\ Hero Section /*/
 
 .hero{
     margin: 30px auto;
@@ -174,7 +174,6 @@ img{
 [class^=hero__card--] > *{
     margin: 15px 0;
 }
-
 
 .hero__card--lg__body{
     display: flex;
@@ -210,7 +209,11 @@ img{
     font-size: 5rem;
 }
 
-
+.hero__card--lg__body .fa-apple{
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+}
 
 /* Hero  Section Responsive Tablet */
 @media (min-width:576px) {
