@@ -369,9 +369,6 @@ h2{
     font-size: 1.8rem;
    }
 
-    .strategy__title__img{
-        
-    }
 
    .strategy__card__img{
     max-width: 300px;
@@ -431,29 +428,19 @@ h2{
 
 
 .testimonials__card__img{
-    border-radius: 50%;
-    width: 75%;
+    flex-shrink: 0;
+}
+
+.testimonial-photo{
+    width: 205px;
     aspect-ratio: 1/1;
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left:  auto;
-    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.nat-reynolds{
-    background-image: url(../img/testimonial1.jpg);
+.testimonials__card__description{
+    flex-grow: 1;
 }
-
-.celia-almeda{
-    background-image: url(../img/testimonial2.jpg);
-}
-
-.bob-roberts{
-    background-image: url(../img/testimonial3.jpg);
-}
-
-
 
 
 
@@ -474,10 +461,7 @@ h2{
         line-height: 1.5rem;
     } 
 
-    .testimonials__card__img{
-        width: 25%;
-        margin: 0;
-    }
+
 
     .testimonials__card__description{
         width: 60%;
