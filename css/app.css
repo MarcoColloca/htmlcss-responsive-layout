@@ -491,12 +491,19 @@ h2{
 
 
 
+/*\ Benefits Section /*/
+
+.benefits{
+    background-color: #9593e6;
+}
 
 
-
-
-
-
+.benefits__title{
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    padding: 75px 0;
+}
 
 
 
@@ -515,5 +522,7 @@ h2{
 } */
 
 
-
+.benefits{
+    padding-bottom: 1000px;
+}
 
