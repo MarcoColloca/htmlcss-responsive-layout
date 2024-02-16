@@ -550,6 +550,66 @@ h2{
 
 
 
+/* Testimonials  Section Responsive Tablet */
+@media (min-width:768px){
+    
+    .col-md-6{
+        width: calc(100%/12*6);
+        padding: 12px;
+    }
+
+    .benefit__card{
+        margin: 0;
+    }
+}
+
+
+
+/* Testimonials  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+    .col-lg-4{
+        width: calc(100%/12*4);
+        padding: 12px;
+    }
+
+    .benefit__card{
+        margin: 0;
+    }
+
+    html{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -561,7 +621,7 @@ h2{
 } */
 
 
-.benefits{
+/* .benefits{
     padding-bottom: 1000px;
-}
+} */
 
