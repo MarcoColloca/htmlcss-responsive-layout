@@ -592,9 +592,113 @@ h2{
 
 
 
+/*\ About Us Section /*/
+
+
+.about-us{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-us__text--title{
+    color: #9593e6;
+}
+
+.about-us__text--content{
+    margin-top: 60px;
+    line-height: 2.2rem;
+}
+
+.about-us__linkedin{
+    margin-top: 60px;
+}
+
+.about-us__linkedin--img{
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.about-us__linkedin--intro{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #9593e6;
+    font-size: 1.5rem;
+}
+
+.about-us__linkedin--button{
+    padding: 5px 10px;
+}
 
 
 
+
+/* About Us  Section Responsive Tablet */
+@media (min-width:768px){
+
+  
+    .about-us{
+     font-size: 16px;
+    }
+
+    .col-md-7{
+        width: calc(100%/12*7);
+        padding: 24px;
+    }
+
+    .about-us__text--content{
+     line-height: 2rem;
+    }
+
+    .col-md-5{
+     width: calc(100%/12*5);
+     padding: 24px;
+    }
+
+    .about-us__linkedin{
+        margin-top: 0;
+    }
+
+    .about-us__linkedin--intro{
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+
+    .about-us__linkedin--img{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+/* About Us  Section Responsive Desktop */
+
+@media (min-width:992px){   
+
+    .about-us__text--title{
+        font-size: 4rem;
+    }
+
+    .about-us__text--content{
+        line-height: 3rem;
+    }
+
+    .col-lg-9{
+        width: calc(100%/12*9);
+        padding: 24px;
+    }
+
+    .col-lg-3{
+        width: calc(100%/12*3);
+        padding: 24px;
+    }
+
+    .about-us__linkedin--intro{
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+}
 
 
 
