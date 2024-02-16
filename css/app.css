@@ -387,6 +387,11 @@ h2{
     max-width: 300px;
    }
 
+   .strategy__title > *{
+    font-size: 14px;
+    line-height: 1.2rem;
+   }
+
    .strategy__title >*:last-child{
     margin-bottom: 0;
    }
@@ -544,7 +549,7 @@ h2{
 }
 
 
-.benefit__card__content{
+.benefit__card--content{
     line-height: 1.8rem;
     color: rgb(119, 119, 119);
 }
@@ -584,9 +589,19 @@ h2{
         margin: 0;
     }
 
-    html{
-        font-size: 14px;
+    .benefit__card--title{
+        font-size: 4rem;
     }
+
+    .benefit__card--title h3{
+        font-size: 1.3rem;
+    }
+
+    .benefit__card--content p{
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+
 }
 
 
@@ -635,7 +650,7 @@ h2{
 }
 
 .about-us__linkedin--quotes{
-    position: relative;
+    position: fixed;
     font-size: 70px;
     color: #9593e6;
     top: 100px;
@@ -697,7 +712,7 @@ h2{
     }
 
     .about-us__text--content{
-        line-height: 3rem;
+        line-height: 2rem;
     }
 
     .col-lg-9{
@@ -711,7 +726,7 @@ h2{
     }
 
     .about-us__linkedin--intro{
-        font-size: 1.8rem;
+        font-size: 1.1rem;
         margin-top: 30px;
     }
 
