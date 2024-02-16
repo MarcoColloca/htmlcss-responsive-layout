@@ -82,6 +82,14 @@ body{
     border-radius: 50%;
 }
 
+.button-purple{
+    padding: 10px 60px;
+    background-color:#9593e6;
+    color: white;
+    border-radius: 24px;
+    line-height: 0;
+}
+
 h3{
     font-size: 1.4rem;
 }
@@ -506,8 +514,39 @@ h2{
 }
 
 
+.benefit__card{
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 18px;
+}
 
 
+.benefit__card > *{
+    padding: 16px 40px;    
+}
+
+.benefit__card--number{
+    padding-top: 40px;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9593e6;
+}
+
+
+.benefit__card--title{
+    color: #9593e6;
+}
+
+
+.benefit__card__content{
+    line-height: 1.8rem;
+    color: rgb(119, 119, 119);
+}
+
+
+.benefit__card--button{
+    padding-bottom: 40px;
+}
 
 
 
