@@ -629,7 +629,13 @@ h2{
     padding: 5px 10px;
 }
 
-
+.about-us__linkedin--quotes{
+    position: relative;
+    font-size: 70px;
+    color: #9593e6;
+    top: 100px;
+    left: 115px;
+}
 
 
 /* About Us  Section Responsive Tablet */
@@ -666,6 +672,11 @@ h2{
     .about-us__linkedin--img{
         max-width: 100%;
     }
+
+    .about-us__linkedin--quotes{
+        top: 55px;
+        left: 200px;
+    }
 }
 
 
@@ -697,6 +708,10 @@ h2{
     .about-us__linkedin--intro{
         font-size: 1.8rem;
         margin-top: 30px;
+    }
+
+    .about-us__linkedin--quotes{
+        left: 180px;
     }
 }
 
