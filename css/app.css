@@ -141,7 +141,7 @@ h2{
 
 
 /* Nav  Section Responsive Tablet */
-@media (min-width:576px) {
+@media (min-width:768px) {
 
 }
 
@@ -241,7 +241,7 @@ h2{
 }
 
 /* Hero  Section Responsive Tablet */
-@media (min-width:576px) {
+@media (min-width:768px) {
     .hero .container .row .col-lg{
         width: calc(100%/3*2);
     }
@@ -334,7 +334,7 @@ h2{
 
 
 /* Strategy  Section Responsive Tablet */
-@media (min-width:576px) {
+@media (min-width:768) {
    
    .strategy h2{
     font-size: 4rem;
@@ -456,7 +456,7 @@ h2{
 
 
 /* Testimonials  Section Responsive Tablet */
-@media (min-width:576px){
+@media (min-width:768px){
     
     html{
         font-size: 22px;
