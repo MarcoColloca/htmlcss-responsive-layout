@@ -722,7 +722,85 @@ h2{
 
 
 
+/*\ Get Started Section /*/
 
+.get-started{
+    text-align: center;
+    background-color: #9593e6;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.get-started span{
+    display: block;
+}
+
+.get-started .container > *{
+    margin-bottom: 30px;
+}
+
+.get-started__title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.get-started__pricing{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.get-started__bait{
+    color: rgb(224, 172, 0);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.get-started__content{
+    line-height: 1.7rem;
+}
+
+.get-started__button{
+    padding: 20px 80px;
+    background-color: white;
+    color:#9593e6;
+    border-radius: 38px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.get-started__copyright{
+    font-size: 14px;
+}
+
+.get-started__copyright--policy{
+    text-decoration: underline;
+}
+
+
+
+
+/* Get Started  Section Responsive Tablet */
+@media (min-width:768px){
+
+    .get-started__content{
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+
+}
+
+
+
+
+
+/* Get Started  Section Responsive Desktop */
+
+@media (min-width:992px){
+
+}
 
 
 
