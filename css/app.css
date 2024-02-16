@@ -269,6 +269,11 @@ h2{
         height: 100%;
     }
 
+    .hero__cards p{
+        line-height: 1.7rem;
+        font-size: 20px;
+    }
+
     .hero__card--lg__img{
         max-width: 250px;
         display: block;
@@ -278,6 +283,7 @@ h2{
         
     }
 
+    
 }
 
 
@@ -291,6 +297,21 @@ h2{
         display: flex;
         align-items: flex-end;
         height: 100%;
+    }
+
+    .hero__cards .button-blue{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.2rem;
+    }
+
+    .hero__cards p{
+        font-size: 18px;
+        line-height: 1.2rem;
+    }
+
+    .hero__cards i{
+        font-size: 3rem;
     }
 
 }
