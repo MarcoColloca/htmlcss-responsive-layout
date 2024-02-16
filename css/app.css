@@ -275,6 +275,7 @@ h2{
     .hero__card--lg{
         display: flex;
         align-items: flex-end;
+        height: 100%;
     }
 
 }
